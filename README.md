@@ -11,7 +11,7 @@ This is a simple library for ComputerCraft that allows you to make buttons and g
 ---
 # Usage
 ## Installation
-Download the 'EasyGui.lua' file and upload it to the computer. You can simply drag n' drop from your pc in modern version of CC, in older versions you'll have to use pastebin. And if http is disable on the server 🤷
+Download the ['EasyGui.lua'](https://raw.githubusercontent.com/memesanddremes/CCEasyGui/main/EasyGUI.lua) file and upload it to the computer. You can simply drag n' drop from your pc in modern version of CC, in older versions you'll have to use pastebin. And if http is disable on the server 🤷
 
 ## Usage
 Load the library using
@@ -40,7 +40,7 @@ There are three element styles right now and you pass them to ```RegisterElement
 
 ### Notes
 - The height and width specify the visual borders of the element and the hitboxes of buttons; even if you use the minimal style it will still register clicks within its bounds.
-- Colors are specified using the builtin ```colors``` class e.g. ```colors.blue```
+- Colors are specified using the builtin [colors class](https://tweaked.cc/module/colors.html) e.g. ```colors.blue```
 - If you specify a function it will behave as a button, if it is nill, it will behave as a static element and cannot be pressed.
 - Be careful not to overlap buttons, they'll behave unexpectedly.
 
