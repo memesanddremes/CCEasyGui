@@ -30,7 +30,7 @@ To create an element it would look something like this
 RegisterElement("element text/name", nil, *background color*, nil, *text color*, nil, *style*, *originX*, *originY*, *width*, *height*)
 ```
 
-Use ```Run()`` to start rendering the gui. This will loop forever checking for button presses.
+Use ```Run()``` to start rendering the gui. This will loop forever checking for button presses.
 
 ### Styles
 There are three element styles right now and you pass them to ```RegisterElement()``` by their string.
